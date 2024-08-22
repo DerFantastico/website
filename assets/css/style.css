@@ -1,0 +1,44 @@
+body {
+    font-family: "Lucida Console";
+    background: #000000;
+    color: #fff;
+}
+
+.headline {
+    text-align: center;
+    padding-top: 2rem;
+}
+.headline h4 {
+    margin-top:  -2.5rem;
+    text-decoration: underline;
+    text-decoration-color: #8d0000;
+}
+
+.links {
+    margin-left: 5%;
+        p {
+            text-align: center;
+            background: #222222;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            width: 10rem;
+            border-radius: 0.5rem;
+            outline: solid 2px;
+            outline-color: #8d0000;
+            background: linear-gradient(to left, #222222 50%, #8d0000 50%) right;
+            background-size: 200% 100%;
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+        p:hover {
+            transition: 0.3s ease-out;
+            background-position: left;
+        }
+}
+
+.text {
+    float: right;
+    margin-right: 5%;
+}
