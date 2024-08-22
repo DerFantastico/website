@@ -41,4 +41,10 @@ body {
 .text {
     float: right;
     margin-right: 5%;
+    max-width: 25rem;
+    margin-top: -12.5rem;
+    a {
+        text-decoration: none;
+        color: #8d0000;
+    }
 }
