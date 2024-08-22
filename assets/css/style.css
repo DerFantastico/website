@@ -1,5 +1,5 @@
 body {
-    font-family: "Lucida Console";
+    font-family: "Lucida Console", monospace;
     background: #000000;
     color: #fff;
 }
@@ -23,8 +23,7 @@ body {
             padding-bottom: 0.5rem;
             width: 10rem;
             border-radius: 0.5rem;
-            outline: solid 2px;
-            outline-color: #8d0000;
+            outline: #8d0000 solid 2px;
             background: linear-gradient(to left, #222222 50%, #8d0000 50%) right;
             background-size: 200% 100%;
             cursor: pointer;
