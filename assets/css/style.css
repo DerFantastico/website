@@ -59,10 +59,10 @@ body {
 }
 
 .rechts {
-    position: fixed;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 0;
     bottom: 1px;
+    width: 100%;
     text-align: center;
     a {
         text-decoration: none;
