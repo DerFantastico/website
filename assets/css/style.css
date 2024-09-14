@@ -8,6 +8,10 @@ body {
     text-align: center;
     padding-top: 2rem;
 }
+.headline img {
+    width: 400px;
+    height: auto;
+}
 .headline h4 {
     margin-top:  -2.5rem;
     text-decoration: underline;
@@ -16,6 +20,7 @@ body {
 
 .links {
     margin-left: 5%;
+    float: left;
         p {
             text-align: center;
             background: #222222;
@@ -43,7 +48,6 @@ body {
     float: right;
     margin-right: 5%;
     max-width: 25rem;
-    margin-top: -13rem;
     a {
         text-decoration: none;
         color: #8d0000;
