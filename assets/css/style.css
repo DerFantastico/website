@@ -59,7 +59,6 @@ body {
 }
 
 .rechts {
-    position: absolute;
     left: 0;
     bottom: 1px;
     width: 100%;
