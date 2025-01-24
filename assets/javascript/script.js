@@ -7,3 +7,9 @@ addEventListener("DOMContentLoaded", () => {
         e.preventDefault();
     });
 });
+
+if(location.href.includes("fantastico.nrfy.net")) {
+    if(location.href.endsWith(".html")) {
+        location.href = location.href.replaceAll(".html","");
+    }
+}
