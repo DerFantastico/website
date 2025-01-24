@@ -12,49 +12,31 @@ body {
     width: 400px;
     height: auto;
 }
-.headline h4 {
-    margin-top:  -2.5rem;
-    text-decoration: underline;
-    text-decoration-color: #8d0000;
+
+.projekte {
+    text-align: center;
+    a {
+        text-decoration: none;
+        color: #ffffff;
+        background: #222222;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        padding-left: 8rem;
+        padding-right: 8rem;
+        border-radius: 0.5rem;
+        outline: #94f50c solid 2px;
+    }
 }
 
 .links {
-    margin-left: 5%;
-    float: left;
-        p {
-            text-align: center;
-            background: #222222;
-            padding-top: 0.5rem;
-            padding-bottom: 0.5rem;
-            width: 10rem;
-            border-radius: 0.5rem;
-            outline: #8d0000 solid 2px;
-            background: linear-gradient(to left, #222222 50%, #8d0000 50%) right;
-            background-size: 200% 100%;
-            cursor: pointer;
-            user-select: none;
-            a {
-                text-decoration: none;
-                color: #fff;
-            }
-        }
-        p:hover {
-            transition: 0.3s ease-out;
-            background-position: left;
-        }
-}
-
-.text {
-    float: right;
-    margin-right: 5%;
-    max-width: 25rem;
-    a {
+    text-align: center;
+    a{
         text-decoration: none;
-        color: #8d0000;
+        color: #ffffff;
     }
     a:hover {
         transition: all 0.3s;
-        color: #ff0000;
+        color: #94f50c;
     }
 }
 
@@ -65,10 +47,10 @@ body {
     text-align: center;
     a {
         text-decoration: none;
-        color: #8d0000;
+        color: #71bc09;
     }
     a:hover {
         transition: all 0.3s;
-        color: #ff0000;
+        color: #94f50c;
     }
 }
