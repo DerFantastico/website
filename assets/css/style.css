@@ -15,16 +15,28 @@ body {
 
 .projekte {
     text-align: center;
-    a {
-        text-decoration: none;
-        color: #ffffff;
+    p {
+        margin-left: auto;
+        margin-right: auto;
         background: #222222;
-        padding-top: 0.8rem;
-        padding-bottom: 0.8rem;
-        padding-left: 8rem;
-        padding-right: 8rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        width: 30rem;
         border-radius: 0.5rem;
         outline: #94f50c solid 2px;
+        cursor: pointer;
+        user-select: none;
+        a {
+            text-decoration: none;
+            color: #ffffff;
+        }
+    }
+    p:hover {
+        transition: 0.3s ease-in-out;
+        background: #94f50c;
+        a {
+            color: #000000;
+        }
     }
 }
 
