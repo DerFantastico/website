@@ -32,11 +32,13 @@ body {
     text-align: center;
     a{
         text-decoration: none;
-        color: #ffffff;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        fill: #ffffff;
     }
     a:hover {
         transition: all 0.3s;
-        color: #94f50c;
+        fill: #94f50c;
     }
 }
 
