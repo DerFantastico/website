@@ -3,7 +3,6 @@ body {
     background: #000000;
     color: #fff;
 }
-
 .headline {
     text-align: center;
     padding-top: 2rem;
@@ -66,5 +65,13 @@ body {
     a:hover {
         transition: all 0.3s;
         color: #94f50c;
+    }
+}
+
+@media (max-width: 700px) {
+    .projekte {
+        p {
+            width: 80%;
+        }
     }
 }
