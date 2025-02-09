@@ -75,3 +75,20 @@ body {
         }
     }
 }
+
+.aboutprojekt {
+    text-align: center;
+    p {
+        margin-left: auto;
+        margin-right: auto;
+        width: 30rem;
+    }
+    a {
+        text-decoration: none;
+        color: #71bc09;
+    }
+    a:hover {
+        transition: all 0.3s;
+        color: #94f50c;
+    }
+}
