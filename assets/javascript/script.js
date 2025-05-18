@@ -10,6 +10,6 @@ addEventListener("DOMContentLoaded", () => {
 
 if(location.href.includes("fantastico.nrfy.net")) {
     if(location.href.endsWith(".html")) {
-        location.href = location.href.replaceAll(".html","");
+        window.history.pushState(location.href.replaceAll(".html",""));
     }
 }
