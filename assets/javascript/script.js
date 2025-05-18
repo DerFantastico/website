@@ -10,6 +10,6 @@ addEventListener("DOMContentLoaded", () => {
 
 if(location.href.includes("fantastico.nrfy.net")||location.href.includes(".github.io/")) {
     if(location.href.endsWith(".html")) {
-        window.history.pushState(location.href.replaceAll(".html",""));
+        window.history.pushState({}, document.title, location.href.replaceAll(".html",""));
     }
 }
