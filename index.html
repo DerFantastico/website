@@ -39,7 +39,7 @@
     <p>©copyright <a href="https://www.nerofy.de">Nerofy</a>. Alle Rechte vorbehalten.</p>
 </div>
 <script>
-    window.history.pushState({}, document.title, window.location.pathname);
+    window.history.pushState({}, document.title, location.href.replaceAll("index.html","").replaceAll("index",""));
 </script>
 </body>
 </html>
