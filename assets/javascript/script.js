@@ -8,8 +8,8 @@ addEventListener("DOMContentLoaded", () => {
     });
 });
 
-if(location.href.includes("fantastico.nrfy.net")) {
+if(location.href.includes("fantastico.nrfy.net")||location.href.includes(".github.io/")) {
     if(location.href.endsWith(".html")) {
-        location.href = location.href.replaceAll(".html","");
+        window.history.pushState({}, document.title, location.href.replaceAll(".html",""));
     }
 }
