@@ -1,13 +1,16 @@
 body {
     font-family: "Lucida Console", monospace;
-    background: #323a36;
+    background: url("../img/darkbg.webp") fixed;
+    background-size: cover;
     color: #fff;
     text-align: center;
 }
 
 .header {
+    margin-left: auto;
+    margin-right: auto;
     background: #33704f;
-    width: 100%;
+    width: 55rem;
     height: 80px;
     border-radius: 0.7rem;
     box-shadow: 1px 1px 4px #000000;
@@ -19,6 +22,7 @@ body {
 }
 
 .links {
+    text-shadow: 3px 3px 6px #000;
     i{
         color: #fff;
         font-size: 1.4rem;
@@ -35,13 +39,14 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 40rem;
+    text-shadow: 3px 3px 6px #000;
     a {
         text-decoration: none;
         color: #fff;
     }
     a:hover {
         transition: all 0.3s;
-        color: #33704f;
+        background: #56ba84;
     }
 }
 
@@ -74,6 +79,7 @@ body {
     bottom: 1px;
     width: 100%;
     text-align: center;
+    text-shadow: 3px 3px 6px #000;
     a {
         text-decoration: none;
         color: #33704f;
@@ -87,6 +93,7 @@ body {
 .aboutproject{
     margin-left: auto;
     margin-right: auto;
+    text-shadow: 3px 3px 6px #000;
     img{
         width: 40rem;
         height: auto;
@@ -120,9 +127,14 @@ body {
         background: #33704f;
     }
 }
-
+@media (max-width: 55rem)
+{
+    .header{
+        width: 100%;
+    }
+}
 @media (max-width: 700px) {
-    .text{
+    .text, .buttons{
         width: 100%;
     }
     .aboutproject{
@@ -136,8 +148,5 @@ body {
         p {
             width: 80%;
         }
-    }
-    .buttons{
-        width: 100%;
     }
 }
