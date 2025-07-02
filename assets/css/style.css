@@ -1,5 +1,6 @@
 body {
     font-family: "Lucida Console", monospace;
+    background: #000000;
     background: url("../img/darkbg.webp") fixed;
     background-size: cover;
     color: #fff;
