@@ -1,45 +1,45 @@
 <!DOCTYPE html>
-<html lang = "de">
+<html lang="de">
 <head>
     <title>Fantastico</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" href="assets/img/frame.webp">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
     <script src="assets/javascript/script.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<div class="header">
-    <p onclick="window.open('/','_self');"><img id="logo" src="assets/img/FANTASTICO-RECHTECK-White.webp" alt=FANTASTICO></p>
+<div class="navbar bg-black navbar-dark fixed-top">
+    <div id="header" class="container">
+        <a class="navbar-brand" href="#"><img src="assets/img/FANTASTICO-RECHTECK-White.webp" alt="FANTASTICO" style="width: 8rem"></a>
+        <ul class="nav justify-content-end">
+            <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/@derfantastico" style="color: white"><i class='bx bxl-youtube' ></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/jannigaletsas" style="color: white"><i class='bx bxl-instagram' ></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://discord.gg/99YZNfGRSU" style="color: white"><i class='bx bxl-discord-alt' ></i></a></li>
+        </ul>
+    </div>
 </div>
-<br>
-<div class="links">
-    <a href="https://www.youtube.com/@derfantastico"><i class='bx bxl-youtube' ></i></a>
-    <a href="https://www.instagram.com/jannigaletsas"><i class='bx bxl-instagram'></i></a>
-    <a href="https://discord.gg/99YZNfGRSU"><i class='bx bxl-discord-alt' ></i></a>
+<div class="container" style="margin-top:70px; height: 90%">
+    <div id="logo" class="row align-items-center">
+        <img src="assets/img/FANTASTICO-RECHTECK-White.webp" class="mx-auto d-block" alt="FANTASTICO" style="width: 40rem; padding-top: 17%">
+    </div>
+    <div class="row align-items-center willkommen">
+        <p>Willkommen.</p>
+    </div>
+    <div id="pfeil" class="pfeil">
+        <a href="#"><i class='bx bx-down-arrow' ></i></a>
+    </div>
 </div>
-<br>
-<div class="text">
-    <p>
-        Willkommen.<br>
-        Mein Name ist Janni oder auch Fantastico (bzw. @DerFantastico).<br>
-        Ich führe einen <a href="https://www.youtube.com/@derfantastico">YouTube-Kanal</a>, auf welchem in der Vergangenheit Gaming-Videos erschienen sind. Seit einer Weile wurde dort jedoch nichts mehr hochgeladen. Allerdings ist es nicht ausgeschlossen, dass dort in Zukunft wieder ein Video erscheint.<br><br><br>
-        Des Weiteren bin ich noch in folgenden Projekten tätig:
-    </p>
+<div class="container">
+    wip
 </div>
-<br>
-<div class="projekte">
-    <p onclick="window.open('pictorium.html','_self');"><a>Pictorium</a></p>
-    <p onclick="window.open('yungflipper.html','_self');"><a>Yung Flipper</a></p>
-</div>
-<br>
-<div class="rechts">
+<div class="container footer rechts">
+    <br>
     <p><a href="https://nerofy.de/rechtliches#impressum" target="_blank">Impressum</a> / <a href="https://nerofy.de/rechtliches#datenschutz" target="_blank">Datenschutz</a></p>
     <p>©copyright <a href="https://www.nerofy.de" target="_blank">Nerofy</a>. Alle Rechte vorbehalten.</p>
+    <br>
 </div>
-<script>
-    window.history.pushState({}, document.title, location.href.replaceAll("index.html","").replaceAll("index",""));
-</script>
 </body>
 </html>

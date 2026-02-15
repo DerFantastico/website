@@ -1,16 +1,23 @@
 addEventListener("DOMContentLoaded", () => {
+    const header = document.getElementById("header");
     const logo = document.getElementById("logo");
-    const pic = document.getElementById("picture");
+    const pfeil = document.getElementById("pfeil");
+    header.addEventListener("dragstart", function(e) {
+        e.preventDefault();
+    });
+    header.addEventListener("contextmenu", function(e) {
+        e.preventDefault();
+    });
     logo.addEventListener("dragstart", function(e) {
         e.preventDefault();
     });
     logo.addEventListener("contextmenu", function(e) {
         e.preventDefault();
     });
-    pic.addEventListener("dragstart", function(e) {
+    pfeil.addEventListener("dragstart", function(e) {
         e.preventDefault();
     });
-    pic.addEventListener("contextmenu", function(e) {
+    pfeil.addEventListener("contextmenu", function(e) {
         e.preventDefault();
     });
 });
